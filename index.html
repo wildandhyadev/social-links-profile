@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    html,body{
+      margin: 0;
+    }
+    body{
+      font-family: "Inter";
+      background-color: hsl(0, 0%, 8%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      height: 100vh;
+    }
+
+
+    main{
+      width: 270px;
+      height: 480px;
+      background-color: hsl(0, 0%, 12%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 10px;
+      padding: 0 25px;
+    }
+
+    img{
+      width: 3.5vw;
+      height: auto;
+      border-radius: 50%;
+    }
+    h1{
+      color: hsl(0, 0%, 100%);
+      font-size: 22px;
+      font-weight: 700;
+      margin-top: 16px;
+      margin-bottom: 0;
+    }
+    h5{
+      color: hsl(75, 94%, 57%);
+      font-size: 13px;
+      font-weight: 400;
+      margin-top: 5px;
+    }
+    p{
+      color: hsl(0, 0%, 80%);
+      font-size: 13px;
+      font-weight: 400;
+      margin-top: 5px;
+    }
+    a{
+      text-decoration: none;
+      color: hsl(0, 0%, 90%) ;
+      background-color: hsl(0, 0%, 20%);
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px 0;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 5px;
+    }
+    .btn-group{
+      width: 100%;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a:hover{
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 12%);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="./assets/images/avatar-jessica.jpeg" alt="">
+    <div class="text-wrapper">
+      <h1>Jessica Randall</h1>
+      <h5>London, United Kingdom</h5>
+      <p>"Front-end developer and avid reader."</p>
+    </div>
+    <div class="btn-group">
+      <a href="#">GitHub</a>
+      <a href="#">Frontend Mentor</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </div>
+  </main>
+</body>
+</html>
